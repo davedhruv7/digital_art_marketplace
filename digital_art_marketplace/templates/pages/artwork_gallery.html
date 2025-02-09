@@ -1,0 +1,16 @@
+{% extends "templates/web.html" %}
+
+{% block title %} Artwork Gallery {% endblock %}
+
+{% block content %}
+    <h2>Discover Stunning Digital Art</h2>
+    <p>Explore and purchase beautiful artwork from top artists.</p>
+    
+    {% for artwork in artworks %}
+        <div>
+            <h3>{{ artwork.title }}</h3>
+            <p>By: {{ artwork.artist }}</p>
+            <p>Price: ₹{{ artwork.price }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}

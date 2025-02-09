@@ -5,6 +5,8 @@ app_description = "This is Digital Art Marketplace"
 app_email = "dhruvdave3012@gmail.com"
 app_license = "mit"
 
+app_include_modules = ["digital_art_marketplace.art"]
+
 # Apps
 # ------------------
 
